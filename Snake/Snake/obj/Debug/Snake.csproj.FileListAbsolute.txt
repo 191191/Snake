@@ -3,3 +3,4 @@ C:\Users\Владимир\Documents\Visual Studio 2015\Projects\Snake\Snake\Snak
 C:\Users\Владимир\Documents\Visual Studio 2015\Projects\Snake\Snake\Snake.git\Snake\Snake\bin\Debug\Snake.pdb
 C:\Users\Владимир\Documents\Visual Studio 2015\Projects\Snake\Snake\Snake.git\Snake\Snake\obj\Debug\Snake.exe
 C:\Users\Владимир\Documents\Visual Studio 2015\Projects\Snake\Snake\Snake.git\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\Владимир\Documents\Visual Studio 2015\Projects\Snake\Snake\Snake.git\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
