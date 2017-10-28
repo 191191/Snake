@@ -34,17 +34,18 @@ namespace Snake
                 Console.WriteLine(i);
             }
 
-            /*List<char> charList = new List<char>();
-            charList.Add(0);
-            charList.Add(1);
-            charList.Add(2);
+            List<char> charList = new List<char>();
+            charList.Add('@');
+            charList.Add('#');
+            charList.Add('*');
 
-            char a = charList['@'];
-            char b = charList['#'];
-            char c = charList['*'];
-            foreach (int i in charList)
+            int a = charList[0];
+            int b = charList[1];
+            int c = charList[2];
+            foreach (char i in charList)
             {
-                Console.WriteLine(i);*/
+                Console.WriteLine(i);
+            }
 
             List<Point> pList = new List<Point>();
             pList.Add(p1);
@@ -52,10 +53,10 @@ namespace Snake
             pList.Add(p3);
             pList.Add(p4);
 
-            foreach (Point i in pList)
+            /*foreach (Point i in pList)
             {
                 Console.WriteLine(i);
-            }
+            }*/
 
             Console.ReadLine();
 
