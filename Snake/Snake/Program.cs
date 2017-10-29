@@ -20,7 +20,7 @@ namespace Snake
             Point p4 = new Point(6, 7, '$');
 
 
-            List<int> numList = new List<int>();
+            /*List<int> numList = new List<int>();
             numList.Add(0);
             numList.Add(1);
             numList.Add(2);
@@ -32,20 +32,17 @@ namespace Snake
             foreach (int i in numList)
             {
                 Console.WriteLine(i);
-            }
+            }*/
 
-            List<char> charList = new List<char>();
+            /*List<char> charList = new List<char>();
             charList.Add('@');
             charList.Add('#');
             charList.Add('*');
-
-            int a = charList[0];
-            int b = charList[1];
-            int c = charList[2];
+                        
             foreach (char i in charList)
             {
                 Console.WriteLine(i);
-            }
+            }*/
 
             List<Point> pList = new List<Point>();
             pList.Add(p1);
@@ -53,10 +50,10 @@ namespace Snake
             pList.Add(p3);
             pList.Add(p4);
 
-            /*foreach (Point i in pList)
+            foreach (Point i in pList)
             {
-                Console.WriteLine(i);
-            }*/
+                i.Draw();
+            }
 
             Console.ReadLine();
 
